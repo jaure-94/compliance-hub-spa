@@ -15,7 +15,7 @@ export const Hero = () => {
               <a href="#about">
                 <button className="btn btn-primary">Learn more</button>
               </a>
-              <a href="#contact">
+              <a href="#get-in-touch">
                 <button className="btn btn-text gap-1 hover:gap-2 hover:font-bold">
                   <span>Get in touch</span>
                   <ArrowIcon className="h-5 w-5" />
