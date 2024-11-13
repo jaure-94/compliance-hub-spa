@@ -7,11 +7,17 @@ import validateForm from '@/sections/libs/validateForm';
 import { ContactCard } from '@/components/ContactCard';
 
 export const Contact = () => {
-  const formSendEmail = useRef();
+  const formSendEmail = useRef<HTMLFormElement | any>(null);
   const [showAlert, setShowAlert] = useState(false);
   const [form, setForm] = useState({ from_name: "", email: "", message: "" });
 
   const [errors, setErrors] = useState({ fromNameError: "", emailError: "", messageError: "" });
+
+  const env = {
+    service_id: process.env.NEXT_PUBLIC_SERVICE_ID as string,
+    template_id: process.env.NEXT_PUBLIC_TEMPLATE_ID as string,
+    public_key: process.env.NEXT_PUBLIC_PUBLIC_KEY as string
+  }
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -21,8 +27,8 @@ export const Contact = () => {
     if (validate) {
       console.log("submit function is working", form);
 
-      emailjs.sendForm(process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_PUBLIC_TEMPLATE_ID, formSendEmail.current, {
-        publicKey: process.env.NEXT_PUBLIC_PUBLIC_KEY,
+      emailjs.sendForm(env.service_id, env.template_id, formSendEmail.current, {
+        publicKey: env.public_key,
       })
       .then(
         () => {

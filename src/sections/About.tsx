@@ -3,6 +3,8 @@ import Image from "next/image";
 import aboutUsImage from "@/assets/about-us-pic-edit.jpg";
 import { SetStateAction, useState } from "react";
 
+type Key = any;
+
 const missionStatements = [
   {
     title: "Empowerment",
@@ -33,7 +35,7 @@ const missionStatements = [
 export const About = () => {
   const [open, setOpen] = useState<boolean>(false);
 
-  const toggle = (index) => {
+  const toggle = (index: boolean) => {
     if (open === index) {
       return setOpen(false);
     }
@@ -73,7 +75,7 @@ export const About = () => {
           <div className="px-5 lg:px-10">
             <p className="text-xl font-light tracking-tighter text-[#001E80] lg:mb-4">Our mission statement encapsulates the following key aspects:</p>
             <ul className="flex flex-col gap-3 lg:gap-px justify-around">
-              {missionStatements.map(({ title, statement }, index) => (
+              {missionStatements.map(({ title, statement }, index: number | boolean | Key | null | undefined) => (
                 <AccordionItem
                   key={index}
                   open={index === open}

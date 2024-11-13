@@ -2,6 +2,8 @@ import { ListItem } from "@/components/ListItem";
 import { AccordionTick } from "@/components/AccordionTick";
 import { useState } from "react";
 
+type Key = any;
+
 const auditServices = [
   {
     service: "Sponsorship License Management"
@@ -42,7 +44,7 @@ const complianceBenefits = [
 export const Compliance = () => {
   const [open, setOpen] = useState<boolean>(false);
 
-  const toggle = (index) => {
+  const toggle = (index: boolean) => {
     if (open === index) {
       return setOpen(false);
     }
@@ -81,7 +83,7 @@ export const Compliance = () => {
           <div>
             <p className="text-xl font-light tracking-tighter text-[#001E80] lg:mb-2">The <span className="text-[#49af48] font-semibold">benefits</span> of conducting regular compliance audits include:</p>
             <ul className="flex flex-col gap-3 lg:gap-px justify-around">
-            {complianceBenefits.map(({ title, statement }, index) => (
+            {complianceBenefits.map(({ title, statement }, index: number | boolean | Key | null | undefined) => (
                 <AccordionTick
                   key={index}
                   open={index === open}
