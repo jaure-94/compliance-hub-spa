@@ -58,7 +58,7 @@ export const Header = () => {
                   <a 
                     key={index}
                     href={item.url}
-                    className={`block relative px-4 py-1 rounded-md transition-colors hover:text-white hover:bg-black/90`}
+                    className={`block relative px-4 py-1 rounded-[4px] transition-colors hover:text-white hover:bg-black/90`}
                   >
                     {item.title}
                   </a>
