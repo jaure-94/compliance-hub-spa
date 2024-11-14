@@ -7,7 +7,7 @@ const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Compliance Hub | UK",
-  description: "Template created by Frontend Tribe",
+  description: "Human Resource & Compliance Auditing Services",
 };
 
 export default function RootLayout({
