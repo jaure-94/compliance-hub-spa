@@ -7,7 +7,7 @@ const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Compliance Hub | UK",
-  description: "Human Resource & Compliance Auditing Services",
+  description: "Human Resource And Compliance Auditing Services",
 };
 
 export default function RootLayout({
