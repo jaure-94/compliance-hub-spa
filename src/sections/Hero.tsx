@@ -10,8 +10,8 @@ export const Hero = () => {
           <div className="md:w-[478px] lg:w-[700px]">
             <div className="tag md:text-sm">Secure your business's future & thrive:</div>
             <h1 className="heading-primary md:text-4xl lg:text-6xl">Expert HR Compliance and Consultancy Services.</h1>
-            <p className="text-lg lg:text-lg text-[#010D3E] tracking-tight mt-6 lg:mt-14">At Compliance Hub, we help small businesses who cannot afford an in-house HR team, to navigate UK immigration, and employment law to optimise their HR practices. We work with employers to secure their businesses through HR compliance audits and consultancy services.</p>
-            <div className="flex gap-1 items-center mt-[20px] md:mt-[25px] lg:mt-24">
+            <p className="text-lg lg:text-lg text-[#010D3E] tracking-tight mt-6 lg:mt-10">At Compliance Hub, we help small businesses who cannot afford an in-house HR team, to navigate UK immigration, and employment law to optimise their HR practices. We work with employers to secure their businesses through HR compliance audits and consultancy services.</p>
+            <div className="flex gap-1 items-center mt-[20px] md:mt-[25px] lg:mt-16">
               <a href="#about">
                 <button className="btn btn-primary">Learn more</button>
               </a>
