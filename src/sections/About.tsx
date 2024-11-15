@@ -54,14 +54,15 @@ export const About = () => {
         <div className="content flex flex-row justify-between gap-3 md:mt-8">
           <div className="max-w-md">
             <div>
-              <p className="mt-8">Compliance Hub is a United Kingdom-based human resources
-                and compliance services company that specializes
-                in immigration, recruitment, employment compliance, and HR consultancy, providing
-                unparalleled support tailored for care companies. We understand the unique challenges
-                care providers face in managing sponsored workers and adhering to complex regulations.
-                Our mission is to empower businesses to thrive in an ever changing regulatory landscape
-                by providing expert compliance and HR solutions that mitigate risks, optimise operations,
-                and foster a culture of success. 
+              <p className="mt-8">Compliance Hub is a United Kingdom-based Human Resources compliance and consultancy
+                services company that specialises in sponsor responsibility immigration compliance audits covering
+                sponsorship license management, recruitment, and employment practices, right-to-work checks, pre-employment
+                checks, working time regulations, pay and benefits, and record-keeping. We also provide HR consultancy services
+                tailored for small businesses to cover the following areas; performance management, employee relations, attendance
+                management, investigations, policies, recruitment and selection, bespoke HR projects, etc. We understand small
+                businesses' unique challenges in managing sponsored workers and adhering to complex regulations. Our mission is
+                to empower businesses, to thrive in an ever-changing regulatory landscape by providing expert HR compliance
+                audits and consultancy services that mitigate risks, optimise operations, and foster a culture of success. 
               </p>
             </div>            
           </div>
