@@ -1,37 +1,25 @@
 import { TestimonialsCard } from "@/components/TestimonialsCard";
 
 const testimonialStatements = [
-    {
-        name: "Leo Kaluza",
-        company: "Example Company",
-        statement: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies velit in tempor ullamcorper. Curabitur in quam consectetur, lobortis tortor eget, dapibus quam."
-    },
-    {
-        name: "Fred Kurley",
-        company: "Example Company",
-        statement: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies velit in tempor ullamcorper. Curabitur in quam consectetur, lobortis tortor eget, dapibus quam."
-    },
-    {
-        name: "Letsile Tebogo",
-        company: "Example Company",
-        statement: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies velit in tempor ullamcorper. Curabitur in quam consectetur, lobortis tortor eget, dapibus quam."
-    },
-    {
-        name: "JJ Redick",
-        company: "Example Company",
-        statement: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies velit in tempor ullamcorper. Curabitur in quam consectetur, lobortis tortor eget, dapibus quam."
-    },
-    {
-        name: "Lebron James",
-        company: "Example Company",
-        statement: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies velit in tempor ullamcorper. Curabitur in quam consectetur, lobortis tortor eget, dapibus quam."
-    },
-    {
-        name: "Dalton Knecht",
-        company: "Example Company",
-        statement: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies velit in tempor ullamcorper. Curabitur in quam consectetur, lobortis tortor eget, dapibus quam."
-    },
-]
+  {
+    name: "Leo Kaluza",
+    company: "BetterOasis Limited",
+    statement:
+      "Leo was a professional ,he really engaged with the team well. He wanted to understand how we worked and his feedback has helped us as organisation.",
+  },
+  {
+    name: "Fred Kurley",
+    company: "Example Company",
+    statement:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies velit in tempor ullamcorper. Curabitur in quam consectetur, lobortis tortor eget, dapibus quam.",
+  },
+  {
+    name: "Letsile Tebogo",
+    company: "Example Company",
+    statement:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies velit in tempor ullamcorper. Curabitur in quam consectetur, lobortis tortor eget, dapibus quam.",
+  },
+];
 
 export const Testimonials = () => {
   return (
