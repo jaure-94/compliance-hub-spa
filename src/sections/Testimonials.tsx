@@ -2,7 +2,7 @@ import { TestimonialsCard } from "@/components/TestimonialsCard";
 
 const testimonialStatements = [
   {
-    name: "Leo Kaluza",
+    name: "Anonymous",
     company: "BetterOasis Limited",
     statement:
       "Leo was a professional ,he really engaged with the team well. He wanted to understand how we worked and his feedback has helped us as organisation.",
