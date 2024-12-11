@@ -54,7 +54,7 @@ export const About = () => {
         <div className="content flex flex-row justify-between gap-3 md:mt-8">
           <div className="max-w-md">
             <div>
-              <p className="flex flex-col gap-10 mt-8">
+              <p className="flex flex-col gap-8 lg:gap-10 mt-8">
                 <span>Compliance Hub is a United Kingdom-based Human Resources compliance and consultancy
                 services company that specialises in sponsor responsibility immigration compliance audits covering
                 sponsorship license management, recruitment, and employment practices, right-to-work checks, pre-employment
