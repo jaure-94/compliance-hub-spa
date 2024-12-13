@@ -1,4 +1,5 @@
-import { BsQrCode } from "react-icons/bs";
+import QRCode from "@/assets/ch-site-qr-code.jpeg";
+import Image from "next/image";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
@@ -22,7 +23,7 @@ export const ContactCard = ({ phone, email }: { phone: string, email: string }) 
       </div>
 
       <div className="qr-code my-12 lg:mt-8 lg:mb-3">
-        <BsQrCode className="h-52 w-52" />
+        <Image src={QRCode} alt="Webstite QR Code" className="h-52 w-52" />
       </div>
     </div>
   )

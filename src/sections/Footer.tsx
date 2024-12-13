@@ -31,7 +31,7 @@ export const Footer = () => {
           </a>
         </div>
 
-        <p className="text-xs mb-1">&copy; 2024 Compliance Hub Inc. All rights reserved. Company Number 15999585</p>
+        <p className="text-xs mb-1">&copy; 2024 Compliance Hub Inc. All rights reserved. Company Number 15999585. VAT Number 477880139</p>
       </div>
     </footer>
   );
