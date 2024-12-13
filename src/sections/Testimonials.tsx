@@ -2,34 +2,12 @@ import { TestimonialsCard } from "@/components/TestimonialsCard";
 
 const testimonialStatements = [
     {
-        name: "Leo Kaluza",
-        company: "Example Company",
-        statement: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies velit in tempor ullamcorper. Curabitur in quam consectetur, lobortis tortor eget, dapibus quam."
+        company: "BetterOasis Limited",
+        statement: "The team at Compliance Hub conducted themselves professionally, they really engaged with our team well. They wanted to understand how we worked and their feedback has helped us as an organisation."
     },
     {
-        name: "Fred Kurley",
-        company: "Example Company",
-        statement: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies velit in tempor ullamcorper. Curabitur in quam consectetur, lobortis tortor eget, dapibus quam."
-    },
-    {
-        name: "Letsile Tebogo",
-        company: "Example Company",
-        statement: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies velit in tempor ullamcorper. Curabitur in quam consectetur, lobortis tortor eget, dapibus quam."
-    },
-    {
-        name: "JJ Redick",
-        company: "Example Company",
-        statement: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies velit in tempor ullamcorper. Curabitur in quam consectetur, lobortis tortor eget, dapibus quam."
-    },
-    {
-        name: "Lebron James",
-        company: "Example Company",
-        statement: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies velit in tempor ullamcorper. Curabitur in quam consectetur, lobortis tortor eget, dapibus quam."
-    },
-    {
-        name: "Dalton Knecht",
-        company: "Example Company",
-        statement: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies velit in tempor ullamcorper. Curabitur in quam consectetur, lobortis tortor eget, dapibus quam."
+        company: "Smart Choice Healthcare Services",
+        statement: "Leo at Compliance Hub was very easy going. He also spoke to us, not at us. The Compliance Hub team is very professional and answered everything we asked of them. They also gave us solutions on how to fix what needed doing on our Compliance."
     },
 ]
 
@@ -43,9 +21,8 @@ export const Testimonials = () => {
             </div>
 
             <div className="flex flex-col justify-center gap-8 md:flex-row md:flex-wrap mt-12">
-                {testimonialStatements.map(({ name, company, statement }) => (
+                {testimonialStatements.map(({ company, statement }) => (
                     <TestimonialsCard
-                        name={name}
                         company={company}
                         statement={statement}
                     />
