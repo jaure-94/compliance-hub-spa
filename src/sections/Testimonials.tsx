@@ -1,7 +1,6 @@
 import { TestimonialsCard } from "@/components/TestimonialsCard";
 
 const testimonialStatements = [
-<<<<<<< HEAD
     {
         company: "BetterOasis Limited",
         statement: "The team at Compliance Hub conducted themselves professionally, they really engaged with our team well. They wanted to understand how we worked and their feedback has helped us as an organisation."
@@ -11,27 +10,6 @@ const testimonialStatements = [
         statement: "Leo at Compliance Hub was very easy going. He also spoke to us, not at us. The Compliance Hub team is very professional and answered everything we asked of them. They also gave us solutions on how to fix what needed doing on our Compliance."
     },
 ]
-=======
-  {
-    name: "Anonymous",
-    company: "BetterOasis Limited",
-    statement:
-      "Leo was a professional, he really engaged with the team well. He wanted to understand how we worked and his feedback has helped us as organisation.",
-  },
-  {
-    name: "Anonymous",
-    company: "Smart Choice Healthcare Services",
-    statement:
-      "Leo was very easy going. He also spoke to us, not at us. He is very professional and answered everything we asked him. He also gave us solutions on how to fix what needed doing on our Compliance.",
-  },
-  {
-    name: "Letsile Tebogo",
-    company: "Example Company",
-    statement:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies velit in tempor ullamcorper. Curabitur in quam consectetur, lobortis tortor eget, dapibus quam.",
-  },
-];
->>>>>>> eada4362e7321ed2f84c45694257a64f0c9ec8fa
 
 export const Testimonials = () => {
   return (
