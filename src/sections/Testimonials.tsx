@@ -5,13 +5,13 @@ const testimonialStatements = [
     name: "Anonymous",
     company: "BetterOasis Limited",
     statement:
-      "Leo was a professional ,he really engaged with the team well. He wanted to understand how we worked and his feedback has helped us as organisation.",
+      "Leo was a professional, he really engaged with the team well. He wanted to understand how we worked and his feedback has helped us as organisation.",
   },
   {
-    name: "Fred Kurley",
-    company: "Example Company",
+    name: "Anonymous",
+    company: "Smart Choice Healthcare Services",
     statement:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies velit in tempor ullamcorper. Curabitur in quam consectetur, lobortis tortor eget, dapibus quam.",
+      "Leo was very easy going. He also spoke to us, not at us. He is very professional and answered everything we asked him. He also gave us solutions on how to fix what needed doing on our Compliance.",
   },
   {
     name: "Letsile Tebogo",
