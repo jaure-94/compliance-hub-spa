@@ -1,7 +1,7 @@
 import { AccordionItem } from "@/components/AccordionItem";
 import Image from "next/image";
 import aboutUsImage from "@/assets/about-us-pic-edit.jpg";
-import { SetStateAction, useState } from "react";
+import { useState } from "react";
 
 type Key = any;
 
