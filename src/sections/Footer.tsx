@@ -2,6 +2,8 @@ import LogoWhite from "@/assets/ch-logo-white-ext.svg";
 import SocialX from "@/assets/social-x.svg";
 import SocialLinkedIn from "@/assets/social-linkedin.svg";
 import { FaFacebookSquare } from "react-icons/fa";
+import Button from "@/components/Button";
+import Link from "next/link";
 
 export const Footer = () => {
   return (
@@ -31,7 +33,15 @@ export const Footer = () => {
           </a>
         </div>
 
-        <p className="text-xs mb-1">&copy; 2025 Compliance Hub Inc. All rights reserved. Company Number 15999585. VAT Number 477880139</p>
+        <div className="flex flex-col items-center">
+          <p className="text-xs">&copy; 2025 Compliance Hub Inc. All rights reserved.</p>
+          <p className="text-xs mb-1">Company Number 15999585. VAT Number 477880139</p>
+          <Button variant="text">
+            <Link href="/privacy">
+              Privacy Policy
+            </Link>
+          </Button>
+        </div>
       </div>
     </footer>
   );

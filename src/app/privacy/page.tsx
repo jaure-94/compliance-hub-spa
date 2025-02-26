@@ -1,6 +1,8 @@
 import { FC } from 'react';
 import Button from '@/components/Button';
 import Link from 'next/link';
+import Image from 'next/image';
+import logo from '@/assets/ch-logo-mid.png'
 
 type Props = {}
 
@@ -8,6 +10,10 @@ const page: FC = (props: Props) => {
   return (
     <main className="container text-sm">
       <div className="flex flex-col py-10 gap-5">
+        <div className="flex justify-center">
+          <Image src={logo} alt="Compliance Hub Logo" className="h-48 w-auto" />
+        </div>
+
         <Button
           variant="text"
           iconBefore={
@@ -17,7 +23,7 @@ const page: FC = (props: Props) => {
           }>
           <Link className="text-xs" href="/">Back To Home</Link>
         </Button>
-        
+
         <h1 className="text-2xl font-bold">Privacy Policy</h1>
 
         <p>
@@ -147,7 +153,9 @@ const page: FC = (props: Props) => {
           </p>
         </div>
 
-        <div className="flex justify-center text-center pt-10">
+        <hr className="border-[0.5px] border-gray-300 w-full mt-10" />
+
+        <div className="flex justify-center text-center">
           <p className="text-xs text-gray-600 mb-1 justify-center">&copy; 2025 Compliance Hub Inc. All rights reserved. Company Number 15999585. VAT Number 477880139</p>
         </div>
       </div>
